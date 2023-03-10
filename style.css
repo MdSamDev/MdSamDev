@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    width: 100%;
+    background-image: url('./asset/coffee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section{
+    background-color: rgb(245, 243, 241);
+    height: 600px;
+    width: 600px;
+}
+
+.navbar{
+   min-height: 6vh;
+    width: 100%;
+    box-shadow: 2px 2px 1px #817d7d;
+}
+
+.menu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.menu-item{
+    list-style-type: none;
+    margin: 10px;
+}
+.menu-item >a{
+    text-decoration: none;
+    color: #1d1b1b;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.title{
+    font-size: 18px;
+    font-style: bold;
+    
+}
