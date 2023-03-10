@@ -1,25 +1,20 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
 }
-
-.container{
-    height:100vh;
-    width: 100%;
-    background-image: url('./asset/coffee.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body{
+    background-color:rgba(255, 255, 255, 1);
 }
 
 .hero-section{
-    background-color: rgb(245, 243, 241);
-    height: 600px;
-    width: 600px;
+    height:100vh;
+    width: 100%;
+    overflow-y: hidden;
 }
 
 .navbar{
@@ -50,5 +45,62 @@
 .title{
     font-size: 18px;
     font-style: bold;
-    
+    font-weight: 600;
+    margin: -5px;
+}
+
+.coffee-intro {
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
+.coffee-intro h1{
+    font-size: 42px;
+    color: rgba(15, 14, 14,0.6);
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.coffee-bg{
+ height: 100%;
+ width: 80%;
+ margin: 0 auto;
+}
+
+.coffee-bg >img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.coffee-flex--container{
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.coffee-with-desc-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.coffee-desc{
+    font-size: 14px;
+    color: rgba(15, 14, 14,0.6);
+    text-align: start;
+}
+.coffee-img{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    align-self: flex-end;
+}
+
+.coffee-img > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
